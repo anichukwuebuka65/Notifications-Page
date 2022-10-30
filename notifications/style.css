@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    font-size: 1rem;
+    font-family:'Plus Jakarta Sans' ;
+
+}
+
+body { 
+    background-color: hsl(210, 60%, 98%);
+    color: hsl(219, 12%, 42%);
+    padding: 2rem 0;
+}
+
+.section-container {
+    background-color:  white;
+    margin: auto;
+    box-shadow: 3px 3px 15px rgba(0,0,0,5%);
+    padding: 1rem 0.7rem;
+    border-radius: 1rem;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+}
+
+time {
+    color:hsl(219, 14%, 63%);
+}
+
+h1, b {
+    color: hsl(224, 21%, 14%)
+    ;
+}
+
+h1 span {
+    margin-left: 0.75rem;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    padding: 3px 9px 3px;
+    border-radius: 7px;
+    vertical-align: 2px;
+}
+
+.float-right {
+    margin-left:auto;
+}
+
+.float-right {
+    cursor: pointer;
+}
+ 
+p span {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: red;
+
+}
+
+button:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%)
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: flex;
+    gap: 0.8rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+header button{
+    border-style: none;
+    background: inherit;
+}
+
+img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.message {
+    border: 1px solid hsl(205, 33%, 90%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.message:hover {
+    cursor: pointer;
+}
+
+b, strong {
+    cursor: pointer;
+}
+
+@media (min-width: 375px) {
+
+    .section-container{
+        max-width: 575px;
+        padding: 1rem 2rem;
+    }
+}
+
+.active {
+    background-color: hsl(210, 60%, 98%);
+    box-shadow: 1px 1px 3px rgba(0,0,0,5%);
+}
+
+.active strong:hover, .active b:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%)
+    ;
+}
